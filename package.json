@@ -1,0 +1,15 @@
+{
+  "name": "uppercase-sql",
+  "version": "1.0.0",
+  "description": "uppercase SQL keywords in string",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha"
+  },
+  "author": "Chang-gun Lee <lazysense@gmail.com>",
+  "license": "MIT",
+  "bin": "./bin/run.js",
+  "devDependencies": {
+    "mocha": "^6.1.4"
+  }
+}
