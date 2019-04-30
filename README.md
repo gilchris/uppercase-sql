@@ -1,4 +1,4 @@
-# sqlup
+# uppercase-sql
 
 To uppercase SQL keywords in string.
 
