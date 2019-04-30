@@ -1,7 +1,11 @@
 {
   "name": "uppercase-sql",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "uppercase SQL keywords in string",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gilchris/uppercase-sql.git"
+  },
   "main": "src/index.js",
   "scripts": {
     "test": "./node_modules/.bin/mocha"
