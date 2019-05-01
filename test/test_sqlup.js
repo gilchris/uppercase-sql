@@ -13,4 +13,14 @@ describe('uppercaseSQL', function () {
             uppercaseSQL("select p.* from Abc p where abcIndex in (SELECT c.`index` FROM def c WHERE p.ddee = c.ddee)")
                 , "SELECT p.* FROM Abc p WHERE abcIndex IN (SELECT c.`index` FROM def c WHERE p.ddee = c.ddee)");
     });
+
+    it("select 'select';", function () {
+        assert.equal(
+            uppercaseSQL("select 'select';"), "SELECT 'select';");
+    });
+
+    it("select * from `limit`", function () {
+        assert.equal(
+            uppercaseSQL("select * from `limit`"), "SELECT * FROM `limit`");
+    });
 });
