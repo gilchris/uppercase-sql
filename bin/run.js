@@ -7,9 +7,9 @@ const uppercaseSQL = require('../lib/uppercase-sql');
 var main = function () {
     let inputString = process.argv[2];
     if (process.argv.length > 2) {
-        console.log(uppercaseSQL(inputString));
+        console.log('%s', uppercaseSQL(inputString));
     }
-} 
-if (require.main === module) { 
+}
+if (require.main === module) {
     main();
 }
