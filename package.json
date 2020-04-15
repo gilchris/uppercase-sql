@@ -1,10 +1,13 @@
 {
   "name": "uppercase-sql",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "uppercase SQL keywords in string",
   "repository": {
     "type": "git",
     "url": "https://github.com/gilchris/uppercase-sql.git"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
   },
   "main": "src/index.js",
   "scripts": {
