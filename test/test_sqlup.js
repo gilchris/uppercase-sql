@@ -23,4 +23,11 @@ describe('uppercaseSQL', function () {
         assert.equal(
             uppercaseSQL("select * from `limit`"), "SELECT * FROM `limit`");
     });
+
+    it("select `index`, `name` from abc", function () {
+        assert.equal(
+            uppercaseSQL("select `index`, `name` from abc"),
+            "SELECT `index`, `name` FROM abc"
+        );
+    });
 });
